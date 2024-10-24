@@ -1,57 +1,94 @@
+body {
+    background-image: url('https://mitsloanreview.mx/wp-content/uploads/2023/09/el-futuro-de-la-tecnologia-al-servicio-de-las-empresa.jpg');
+    color: white;
+}
+
 .bio {
     margin: 30px;
     padding: 20px;
     border-radius: 5px;
-    border: 1px;
-    background-color: #ddd;
-    }
-     
-    .div-center {
-      align-items: center;
-      padding: 10px;
-    }
-     
-    .div-circle {
-      border-radius: 100%;
-      background-color: #f3f4f8;
-      height: 50px;
-      width: 50px;
-      margin-left: 40px;
-      margin-right: 40px;
-      font-size: 30px;
-      vertical-align: center;
-    }
-     
-    .photo img {
-      border-radius: 100%;
-      justify-content: center;
-      width: 30%;
-      display: flex;
-      justify-content: center; /* Centraliza horizontalmente */
-      align-items: center;
-     
-    }
-     
-    .photo{
-      display: flex;
-      justify-content: center; /* Centraliza horizontalmente */
-      align-items: center;     /* Centraliza verticalmente */
-    }
-     
-    nav {
-      text-align: left !important;
-      margin: 5px 0!important;
-      position: block!important;
-    }
-     
-    nav a {
-      color: #8a7d54;
-      text-decoration: none;
-      margin: 0 15px;
-      font-size: 1.2em;
-    }
-     
-    nav a:hover {
-      color: #fff;
-      text-decoration: underline;
-    }
+    border: 5px solid white;
+    /* background-color: #0c115c; */
+}
+
+.div-center {
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-circle {
+    border-radius: 100%;
+    background-color: #f3f4f8;
+    height: 50px;
+    width: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+    vertical-align: center;
+}
+
+.photo img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /*garante que a imagem preencha o espaço definido, mantendo a proporção*/
+}
+
+.photo {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+nav {
+    text-align: left !important;
+    margin: 5px 0 !important;
+    position: block !important;
+}
+
+nav a {
+    color: #8a7d54;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.bio p {
+    text-align: justify;
+}
+
+#social-medias {
+    margin: 30px;
+}
+
+#my-services .row div {
+    margin: 40px;
+}
+
+#my-services > div:nth-child(2) > div:nth-child(1) {
+    background-color: rgb(65, 162, 162);
+}
+
+#my-services > div:nth-child(2) > div:nth-child(2) {
+    background-color: rgb(200, 195, 88);
+}
+
+#my-services > div:nth-child(3) > div:nth-child(1) {
+    background-color: rgb(90, 70, 180);
+}
+
+#my-services > div:nth-child(3) > div:nth-child(2) {
+    background-color: rgb(179, 113, 47);
+}
+
+.fa-brands {
+    color: #0c115c;
+}
